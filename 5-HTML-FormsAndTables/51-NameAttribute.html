@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>51 - Name</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+    <form action="/tacos">
+      <!-- name attribute is important and will be sent everytime you use a form -->
+      <p>
+        <label for="username">Enter A Username</label>
+        <input
+          id="username"
+          type="text"
+          placeholder="username"
+          name="username"
+        />
+      </p>
+
+      <p>
+        <label for="password">Enter A Password</label>
+        <input
+          id="password"
+          type="password"
+          placeholder="enter password"
+          name="password"
+        />
+      </p>
+      <p>
+        <label for="color">Select a color</label>
+        <input id="color" type="color" />
+      </p>
+
+      <p>
+        <label for="number">Select a Number</label>
+        <input
+          id="number"
+          type="number"
+          placeholder="enter a number"
+          name="number"
+        />
+        <input type="submit" value="click me" />
+      </p>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
