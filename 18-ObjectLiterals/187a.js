@@ -9,6 +9,6 @@ const restaurant = {
 
 //YOUR CODE GOES DOWN HERE:
 
-const fullAddress = restaurant.address + ", " + restaurant.city + ", " + restaurant.state + restaurant.zipcode;
+const fullAddress = restaurant.address + ", " + restaurant.city + ", " + restaurant.state + ", " + restaurant.zipcode;
 
 console.log(fullAddress);

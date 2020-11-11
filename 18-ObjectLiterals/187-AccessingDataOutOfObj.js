@@ -19,3 +19,4 @@ const years = {1999: "good", 2020: "bad"}
 
 console.log(years["2020"]);
 // note that [] will convert to a string
+
