@@ -19,8 +19,8 @@ repeat("Hello ", 4)
 // Multiple arguments exercise 
 
 function isSnakeEyes(dice1, dice2){
-if (dice1 === dice2){
-    console.log("Snake Eyes!");
+    if (dice1 === 1 && dice2 === 1){
+        console.log("Snake Eyes!");
 } else {
     console.log("Not Snake Eyes!");
 }

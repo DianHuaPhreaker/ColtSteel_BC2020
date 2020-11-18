@@ -19,27 +19,52 @@ console.log(isShortsWeather(76));
 console.log(isShortsWeather(74));
 
 // Coding Exercise 40
-function lastElement()
+function lastElement(arr) {
+    if (arr.length < 1 || arr == undefined){
+        return null;
+    }
+    return arr[arr.length -1];
+}
+console.log(lastElement([3, 5, 7]));
+console.log(lastElement([1]));
+console.log(lastElement([]));
 
+
+// Capitalize first letter in word
+function capitalize(word) {
+    return word.charAt(0).toUpperCase() + word.slice(1);
+}
+
+console.log(capitalize("bitch"));
+
+// Sum of Arrays 
+function sumArrays(total, num) {
+    return total + Math.round(num)
+
+}
+
+console.log(sumArrays[1, 2, 3]);
 
 // Coding Exercise 43
 function returnDay(day){
     if (day === 1){
         return "Monday";
     } else if (day === 2){
-        return "Tuesday"
+        return "Tuesday";
     } else if (day === 3){
-        return "Wednesday"
+        return "Wednesday";
     } else if (day === 4){
-        return "Thursday"
+        return "Thursday";
     } else if (day === 5){
-        return "Friday"
+        return "Friday";
     } else if (day === 6){
-        return "Saturday"
+        return "Saturday";
     } else if (day === 7){
-        return "Sunday"
+        return "Sunday";
     } else if (day > 7 || day < 0){
-        return "null"
+        return null;
+    } else {
+        return null; 
     }
 }
 
