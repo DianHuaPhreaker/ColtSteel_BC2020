@@ -38,9 +38,10 @@ function capitalize(word) {
 console.log(capitalize("bitch"));
 
 // Sum of Arrays 
-function sumArrays(total, num) {
-    return total + Math.round(num)
-
+function sumArrays(arr) {
+    for (let i = 0; i < arr.length; i++){
+        console.log((arr[i]));
+    }
 }
 
 console.log(sumArrays[1, 2, 3]);
