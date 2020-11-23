@@ -1,10 +1,10 @@
-let total = 0; 
-
-
 function sumArrays(arr) {
-    for (let i = 0; i < arr.length; i++){
-        total += arr[i];
+    let sum = 0; 
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i]
+        console.log(sum);
     }
+    return sum;
 }
 
-console.log(sumArrays([1, 2, 3]));
+console.log(sumArrays([1, 2, 3, 4, 5]));

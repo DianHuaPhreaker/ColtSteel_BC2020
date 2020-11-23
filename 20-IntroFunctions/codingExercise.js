@@ -39,9 +39,11 @@ console.log(capitalize("bitch"));
 
 // Sum of Arrays 
 function sumArrays(arr) {
+    let sum = 0; 
     for (let i = 0; i < arr.length; i++){
-        console.log((arr[i]));
+        sum += arr[i];
     }
+    return sum;
 }
 
 console.log(sumArrays[1, 2, 3]);
