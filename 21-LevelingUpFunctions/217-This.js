@@ -16,8 +16,10 @@ const hen = {
     name: 'Helen',
     eggCount: 0,
     layAnEgg() {
-        console.log(`Egg ${this.eggCount}++`);
+        this.eggCount++;
+        return `EGG`;
     }
 }
 
+console.log(hen.layAnEgg());
 console.log(hen.layAnEgg());
