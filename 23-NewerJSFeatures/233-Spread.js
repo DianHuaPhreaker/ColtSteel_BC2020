@@ -11,3 +11,4 @@ console.log(nums);
 console.log(...nums); // separated by spacing
 
 console.log(..."hello");
+

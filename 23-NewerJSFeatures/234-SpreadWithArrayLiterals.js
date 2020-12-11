@@ -10,3 +10,4 @@ console.log(allPets);
 
 const hello = ["hello"]
 console.log([..."hello"]);
+
